@@ -1,0 +1,21 @@
+[workspace]
+authors = ["jadepurring"]
+channels = ["conda-forge", "bioconda", "HCC"]
+name = "amapec"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+scikit-learn = "1.2.1.*"
+dssp = "3.0.11.*"
+fpocket = "4.0.2.*"
+joblib = "1.2.0.*"
+pandas = "1.5.3.*"
+numpy = "1.23.5.*"
+biopython = "1.84.*"
+r-seqinr = "4.2_30.*"
+r-peptides = "2.4.4.*"
+r-stringr = "1.4.0.*"
+python = "3.10.*"
